@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Allerta+Stencil&family=Cinzel+Decorative:wght@700&family=Cormorant+SC&family=Dancing+Script&family=EB+Garamond:ital,wght@1,400;1,500&family=Neonderthaw&family=Source+Serif+Pro:ital,wght@0,200;0,600;1,900&family=Ultra&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/brands.min.css" integrity="sha512-bSncow0ApIhONbz+pNI52n0trz5fMWbgteHsonaPk42JbunIeM9ee+zTYAUP1eLPky5wP0XZ7MSLAPxKkwnlzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script    src="https://code.jquery.com/jquery-3.4.0.min.js"integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/1eff5ac3a2.js" crossorigin="anonymous"></script>
+
+    <title>Option</title>
+</head>
+<body>
+    <nav class="navbar navbar_option " role="navigation" >
+        <div class="navbar_left_box option_left_box" >  
+            <div class="navbar_title navbar_title_catalog"> <a href="index.html">Eden Fashion</a> </div>    
+            <ul class="navbar__links navbar_links_catalog">
+                <li class="navbar__link first"><a href="catalog.html">CATALOGUE</a></li>
+                <li class="navbar__link second"><a href="accessories.html">ACCESSOIRES</a></li>
+                <li class="navbar__link third"><a href="about.html">A PROPOS</a></li>
+                <li class="navbar__link four "><a href="contact.html">CONTACT</a></li>
+            </ul>  
+        </div>
+        <div class="navbar_right_box option_right">
+            <div class="location">
+                <span><i class="fas fa-map-marker-alt"></i>    Casablanca</span>
+                <span><i class="fas fa-map-marker-alt"></i>    Libreville</span>
+            </div>
+            <button class="burger">
+                <span class="bar"></span>  
+            </button>  
+        </div>   
+    </nav>
+
+    <main class="main-content">
+        <div class="diapo_content">       
+            <span id="first_img" class="target"></span>
+            <span id="second_img" class="target"></span>
+            <span id="third_img" class="target"></span>
+
+            <ul class="navigation_diapo">
+                <li>
+                    <a href="#first_img">
+                        <img src="./css/images/will4.jpg" alt>
+                    </a>
+                </li>
+                <li>
+                    <a href="#second_img">
+                        <img src="/css/images/will.jpg" alt>
+                    </a>
+                </li>
+                <li>
+                    <a href="#third_img">
+                        <img src="./css/images/will9.jpg" alt>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="cadre_diapo">
+                <div class="interieur_diapo">
+                    <div class=description id="first_descp_img">            
+                        <img src="./css/images/will4.jpg" alt>
+                    </div>
+                    <div class=description>  
+                        <img src="./css/images/will.jpg" alti>
+                    </div>
+                    <div class=description>
+                        <img src="./css/images/will9.jpg" alt>
+                    </div> 
+                </div>
+            </div>
+
+            <aside>
+                <h1>EDEN FASHION</h1>
+                <h2>"C'EST LE GABON QUI GAGNE"</h2>
+                <p>Plus qu'un sloguant, c'est un concept <br> une aspiration au sommet et à la réussite </p>
+            </aside>
+        </div> 
+
+        <div class="carousel" data-flickity='{ "autoPlay": true }'>
+            <div class="carousel-cell">
+                <img src="./css/images/will4.jpg"alt=""class="carousel-cell-image"> 
+            </div>
+            <div class="carousel-cell">
+                <img src="./css/images/will2.jpg" alt=""class="carousel-cell-image">
+            </div>
+            <div class="carousel-cell">
+                <img src="./css/images/will9.jpg"alt=""class="carousel-cell-image"> 
+            </div>
+            <div class="carousel-cell">
+                <img src="./css/images/will6.jpg"alt=""class="carousel-cell-image"> 
+            </div>
+            <div class="carousel-cell">
+                <img src="./css/images/will3.jpg"alt=""class="carousel-cell-image"> 
+            </div>
+        </div>
+        
+        <h1 class="guide_size">Guide des tailles</h1>
+        <table class="table_style">
+            <thead>
+                <tr>
+                    <th>Numero</th>
+                    <th>Taille</th>
+                    <th>Vetement</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>42</td>
+                    <td>1.55-1.65</td>
+                    <td>S-XL</td>                 
+                </tr>
+                <tr>
+                    <td>44</td>
+                    <td>1.65-1.70</td>
+                    <td>S-XL</td>           
+                </tr>
+                <tr>
+                    <td>46</td>
+                    <td>1.70-1.75</td>
+                    <td>M-2XL</td>               
+                </tr>
+                <tr>
+                    <td>48</td>
+                    <td>1.75-1.80</td>
+                    <td>M-3XL</td>
+                </tr>
+                <tr>
+                    <td>50</td>
+                    <td>1.80-1.85</td>
+                    <td>M-4XL</td>
+                </tr>
+                <tr>
+                    <td>52</td>
+                    <td>1.85-1.90</td>
+                    <td>M-4XL</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <footer>
+            <div class="footer_informations">
+                <div class="footer_contact">
+                    <h2>CONTACTS</h2>
+                    <p><i class="fas fa-phone-alt"></i>+212 15852395650</p>
+                    <p><i class="far fa-envelope"> </i> Edenfashion@gmail.com</p>
+                    
+                </div>
+                <div class="find_us">
+                    <h2>SUIVEZ NOUS</h2>
+                    <a href="https://www.facebook.com/photo/?fbid=269517731843823&set=a.269517698510493"><i class="fab fa-facebook"> </i> Facebook</a>
+                    <P><i class="fa-brands fa-instagram"></i> Instagram</P>
+                    <p><i class="fas fa-map-marker-alt"></i> Casablanca</p>
+                </div>
+                <div class="title">
+                    <h2>EDENE FASHION</h2>
+                    <H5>C'est le Gabon qui gagne</H5>
+                </div>
+            </div>
+            <hr>
+            <div class="links_and_dev_infos" >
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <p><i class="far fa-copyright"></i>2022 EDEN FASHION</p>
+                <p>Developped by William Hortone</p>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/william-paul-abaga-ndong-a078b2219"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>  
+<script src="index.js"></script>  
+</body>
+</html>

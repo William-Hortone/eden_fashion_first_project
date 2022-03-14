@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+    crossorigin="anonymous"></script>
+
+    <title>Contact</title>
+</head>
+<body id="contact_page">
+    <nav class="navbar navbar_catalog contact_navbar " role="navigation">
+        <div class="navbar_left_box left_box_contact">  
+            <div class="navbar_title title_contact navbar_title_catalog"> <a href="index.html">Eden Fashion</a> </div>    
+            <ul class="navbar__links" id class="navbar_links_catalog">
+                <li class="navbar__link first contact"><a href="catalog.html">CATALOGUE</a></li>
+                <li class="navbar__link second contact"><a href="accessories.html">ACCESSOIRES</a></li>
+                <li class="navbar__link third contact"><a href="about.html"> A PROPOS</a></li>
+                <li class="navbar__link four contact"><a href="contact.html">CONTACT</a></li>
+            </ul>  
+        </div>
+        <div class="navbar_right_box  right_box_contact">
+            <div class="location">
+                <span class= "city_name"><i class="fas fa-map-marker-alt"></i> Casablanca</span>
+                <span class= "city_name"><i class="fas fa-map-marker-alt" ></i>Libreville</span>
+            </div>
+            <button class="burger ">
+                <span class="bar bar_contact "></span>  
+            </button>  
+        </div>  
+    </nav>
+   
+    <main class="main-content" id="main_contact" role="main">
+        <div class="contact_text">
+            <span class="form"> SIMPLE FORMULAIRE</span> <br>
+            <span class="form_end"> DE CONTACT</span>
+        </div>
+        <span class="contact_text_resp">CONTACTEZ NOUS</span>
+
+        <div class="form_content">
+           
+             <form action="mail.php" method="post"  class="content_input">
+                <input type="text" placeholder="Nom" name="name" id="name" >
+                <input type="tel" placeholder="Telephone" name="phone" id="phone">
+                <input type="text" placeholder="Email*"required name="email" id="email">
+                <textarea name="" id="" cols="" rows="" placeholder="Message*" required name="message" ></textarea>
+                <button class="button_send" type="submit" value="send">Envoyer</button>
+            </form>   
+        </div>
+    </main>
+<script src="index.js"></script>
+</body>
+</html>
